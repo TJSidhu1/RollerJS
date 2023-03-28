@@ -72,6 +72,7 @@ describe('Roller', () => {
       expect(distribution.get(4)).toEqual(0);
     });
 
+    
     it('should return a Map with updated values for each face that has been rolled', () => {
       const roller = new Roller(4);
       roller.roll(3);

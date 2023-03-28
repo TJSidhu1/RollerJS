@@ -3,6 +3,7 @@ export class Roller {
     private _last: number;
     private _faces: number;
 
+    
     // specifies the number of faces the die has. It must have at least 2 faces
     // so any invalid values should default to 6 to represent the common 
     // six-sided die.
